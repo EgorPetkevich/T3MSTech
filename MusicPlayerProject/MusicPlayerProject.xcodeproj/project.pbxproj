@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F26FF8322EE82D3700E64C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26FF82E2EE82D3700E64C4E /* Assets.xcassets */; };
+		F26FF8342EE82D3700E64C4E /* MusicPlayerProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8302EE82D3700E64C4E /* MusicPlayerProjectApp.swift */; };
+		F26FF83A2EE82D9F00E64C4E /* AppStorage+Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8392EE82D9F00E64C4E /* AppStorage+Keys.swift */; };
+		F26FF83D2EE82DED00E64C4E /* AppStorageKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF83C2EE82DED00E64C4E /* AppStorageKeys.swift */; };
+		F26FF8462EE82F6900E64C4E /* OnbFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8452EE82F6900E64C4E /* OnbFirstVC.swift */; };
+		F26FF8482EE82F6E00E64C4E /* OnbFirstVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8472EE82F6E00E64C4E /* OnbFirstVM.swift */; };
+		F26FF84A2EE82F7300E64C4E /* OnbSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8492EE82F7300E64C4E /* OnbSecondVC.swift */; };
+		F26FF84C2EE82F7800E64C4E /* OnbSecondVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF84B2EE82F7800E64C4E /* OnbSecondVM.swift */; };
+		F26FF84E2EE82F9400E64C4E /* OnbFirstAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF84D2EE82F9400E64C4E /* OnbFirstAssembler.swift */; };
+		F26FF8502EE82F9B00E64C4E /* OnbSecondAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF84F2EE82F9B00E64C4E /* OnbSecondAssembler.swift */; };
+		F26FF8522EE82FA700E64C4E /* OnbThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8512EE82FA700E64C4E /* OnbThirdVC.swift */; };
+		F26FF8542EE82FAB00E64C4E /* OnbThirdVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8532EE82FAB00E64C4E /* OnbThirdVM.swift */; };
+		F26FF8562EE82FB000E64C4E /* OnbThirdAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8552EE82FB000E64C4E /* OnbThirdAssembler.swift */; };
+		F26FF8592EE8308400E64C4E /* BounceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8582EE8308400E64C4E /* BounceButtonView.swift */; };
+		F26FF85C2EE8314200E64C4E /* PaywallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF85B2EE8314200E64C4E /* PaywallService.swift */; };
+		F26FF8602EE832C700E64C4E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF85F2EE832C700E64C4E /* Router.swift */; };
+		F26FF8632EE8333300E64C4E /* OnbPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8622EE8333300E64C4E /* OnbPath.swift */; };
+		F26FF8652EE8335500E64C4E /* OnbRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8642EE8335500E64C4E /* OnbRouter.swift */; };
+		F26FF8672EE833BD00E64C4E /* OnbRouterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8662EE833BD00E64C4E /* OnbRouterModifier.swift */; };
+		F26FF86A2EE834F400E64C4E /* PaywallService+OnbFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8692EE834F400E64C4E /* PaywallService+OnbFirst.swift */; };
+		F26FF86D2EE8363300E64C4E /* View+RouterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF86C2EE8363300E64C4E /* View+RouterModifier.swift */; };
+		F26FF8702EE86F4700E64C4E /* PaywallService+OnbSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF86F2EE86F4700E64C4E /* PaywallService+OnbSecond.swift */; };
+		F26FF8732EE8710100E64C4E /* PaywallService+OnbThird.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8722EE8710100E64C4E /* PaywallService+OnbThird.swift */; };
+		F26FF8752EE8713D00E64C4E /* PaywallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8742EE8713D00E64C4E /* PaywallVC.swift */; };
+		F26FF8772EE8714400E64C4E /* PaywallVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8762EE8714400E64C4E /* PaywallVM.swift */; };
+		F26FF8792EE8714B00E64C4E /* PaywallAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF8782EE8714B00E64C4E /* PaywallAssembler.swift */; };
+		F26FF87B2EE8782D00E64C4E /* UDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF87A2EE8782D00E64C4E /* UDManager.swift */; };
+		F26FF87E2EE87C3D00E64C4E /* PaywallService+Paywall.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF87D2EE87C3D00E64C4E /* PaywallService+Paywall.swift */; };
+		F26FF8802EE87CC900E64C4E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FF87F2EE87CC900E64C4E /* MainVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F26FF8202EE82D2C00E64C4E /* MusicPlayerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26FF82E2EE82D3700E64C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F26FF8302EE82D3700E64C4E /* MusicPlayerProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerProjectApp.swift; sourceTree = "<group>"; };
+		F26FF8392EE82D9F00E64C4E /* AppStorage+Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppStorage+Keys.swift"; sourceTree = "<group>"; };
+		F26FF83C2EE82DED00E64C4E /* AppStorageKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageKeys.swift; sourceTree = "<group>"; };
+		F26FF8452EE82F6900E64C4E /* OnbFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbFirstVC.swift; sourceTree = "<group>"; };
+		F26FF8472EE82F6E00E64C4E /* OnbFirstVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbFirstVM.swift; sourceTree = "<group>"; };
+		F26FF8492EE82F7300E64C4E /* OnbSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbSecondVC.swift; sourceTree = "<group>"; };
+		F26FF84B2EE82F7800E64C4E /* OnbSecondVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbSecondVM.swift; sourceTree = "<group>"; };
+		F26FF84D2EE82F9400E64C4E /* OnbFirstAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbFirstAssembler.swift; sourceTree = "<group>"; };
+		F26FF84F2EE82F9B00E64C4E /* OnbSecondAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbSecondAssembler.swift; sourceTree = "<group>"; };
+		F26FF8512EE82FA700E64C4E /* OnbThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbThirdVC.swift; sourceTree = "<group>"; };
+		F26FF8532EE82FAB00E64C4E /* OnbThirdVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbThirdVM.swift; sourceTree = "<group>"; };
+		F26FF8552EE82FB000E64C4E /* OnbThirdAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbThirdAssembler.swift; sourceTree = "<group>"; };
+		F26FF8582EE8308400E64C4E /* BounceButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButtonView.swift; sourceTree = "<group>"; };
+		F26FF85B2EE8314200E64C4E /* PaywallService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallService.swift; sourceTree = "<group>"; };
+		F26FF85F2EE832C700E64C4E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		F26FF8622EE8333300E64C4E /* OnbPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbPath.swift; sourceTree = "<group>"; };
+		F26FF8642EE8335500E64C4E /* OnbRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbRouter.swift; sourceTree = "<group>"; };
+		F26FF8662EE833BD00E64C4E /* OnbRouterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbRouterModifier.swift; sourceTree = "<group>"; };
+		F26FF8692EE834F400E64C4E /* PaywallService+OnbFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaywallService+OnbFirst.swift"; sourceTree = "<group>"; };
+		F26FF86C2EE8363300E64C4E /* View+RouterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+RouterModifier.swift"; sourceTree = "<group>"; };
+		F26FF86F2EE86F4700E64C4E /* PaywallService+OnbSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaywallService+OnbSecond.swift"; sourceTree = "<group>"; };
+		F26FF8722EE8710100E64C4E /* PaywallService+OnbThird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaywallService+OnbThird.swift"; sourceTree = "<group>"; };
+		F26FF8742EE8713D00E64C4E /* PaywallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallVC.swift; sourceTree = "<group>"; };
+		F26FF8762EE8714400E64C4E /* PaywallVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallVM.swift; sourceTree = "<group>"; };
+		F26FF8782EE8714B00E64C4E /* PaywallAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallAssembler.swift; sourceTree = "<group>"; };
+		F26FF87A2EE8782D00E64C4E /* UDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDManager.swift; sourceTree = "<group>"; };
+		F26FF87D2EE87C3D00E64C4E /* PaywallService+Paywall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaywallService+Paywall.swift"; sourceTree = "<group>"; };
+		F26FF87F2EE87CC900E64C4E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26FF81D2EE82D2C00E64C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F26FF8172EE82D2C00E64C4E = {
+			isa = PBXGroup;
+			children = (
+				F26FF8312EE82D3700E64C4E /* MusicPlayerProject */,
+				F26FF8212EE82D2C00E64C4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26FF8212EE82D2C00E64C4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF8202EE82D2C00E64C4E /* MusicPlayerProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26FF8312EE82D3700E64C4E /* MusicPlayerProject */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF8352EE82D3E00E64C4E /* App */,
+				F26FF8572EE8303100E64C4E /* Custom */,
+				F26FF83E2EE82F0700E64C4E /* Modules */,
+				F26FF85A2EE8313500E64C4E /* Services */,
+				F26FF8372EE82D5200E64C4E /* Utils */,
+				F26FF8362EE82D4400E64C4E /* Resources */,
+			);
+			path = MusicPlayerProject;
+			sourceTree = "<group>";
+		};
+		F26FF8352EE82D3E00E64C4E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF83B2EE82DE000E64C4E /* AppStorageKeys */,
+				F26FF85E2EE832C000E64C4E /* Router */,
+				F26FF8302EE82D3700E64C4E /* MusicPlayerProjectApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F26FF8362EE82D4400E64C4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF82E2EE82D3700E64C4E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F26FF8372EE82D5200E64C4E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF86B2EE8361400E64C4E /* View+RouterModifier */,
+				F26FF8382EE82D8900E64C4E /* AppStorage+Keys */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F26FF8382EE82D8900E64C4E /* AppStorage+Keys */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF8392EE82D9F00E64C4E /* AppStorage+Keys.swift */,
+			);
+			path = "AppStorage+Keys";
+			sourceTree = "<group>";
+		};
+		F26FF83B2EE82DE000E64C4E /* AppStorageKeys */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF83C2EE82DED00E64C4E /* AppStorageKeys.swift */,
+			);
+			path = AppStorageKeys;
+			sourceTree = "<group>";
+		};
+		F26FF83E2EE82F0700E64C4E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF83F2EE82F1200E64C4E /* Onbording */,
+				F26FF8402EE82F1A00E64C4E /* Paywall */,
+				F26FF8412EE82F2200E64C4E /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F26FF83F2EE82F1200E64C4E /* Onbording */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF85D2EE832B500E64C4E /* OnbRouter */,
+				F26FF8422EE82F2C00E64C4E /* OnbFirst */,
+				F26FF8432EE82F3300E64C4E /* OnbSecond */,
+				F26FF8442EE82F4500E64C4E /* OnbThird */,
+			);
+			path = Onbording;
+			sourceTree = "<group>";
+		};
+		F26FF8402EE82F1A00E64C4E /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF87C2EE87C2A00E64C4E /* UseCase */,
+				F26FF8742EE8713D00E64C4E /* PaywallVC.swift */,
+				F26FF8762EE8714400E64C4E /* PaywallVM.swift */,
+				F26FF8782EE8714B00E64C4E /* PaywallAssembler.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		F26FF8412EE82F2200E64C4E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF87F2EE87CC900E64C4E /* MainVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F26FF8422EE82F2C00E64C4E /* OnbFirst */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF8682EE834E300E64C4E /* UseCase */,
+				F26FF8452EE82F6900E64C4E /* OnbFirstVC.swift */,
+				F26FF8472EE82F6E00E64C4E /* OnbFirstVM.swift */,
+				F26FF84D2EE82F9400E64C4E /* OnbFirstAssembler.swift */,
+			);
+			path = OnbFirst;
+			sourceTree = "<group>";
+		};
+		F26FF8432EE82F3300E64C4E /* OnbSecond */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF86E2EE86F3700E64C4E /* UseCase */,
+				F26FF8492EE82F7300E64C4E /* OnbSecondVC.swift */,
+				F26FF84B2EE82F7800E64C4E /* OnbSecondVM.swift */,
+				F26FF84F2EE82F9B00E64C4E /* OnbSecondAssembler.swift */,
+			);
+			path = OnbSecond;
+			sourceTree = "<group>";
+		};
+		F26FF8442EE82F4500E64C4E /* OnbThird */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF8712EE870EF00E64C4E /* UseCase */,
+				F26FF8512EE82FA700E64C4E /* OnbThirdVC.swift */,
+				F26FF8532EE82FAB00E64C4E /* OnbThirdVM.swift */,
+				F26FF8552EE82FB000E64C4E /* OnbThirdAssembler.swift */,
+			);
+			path = OnbThird;
+			sourceTree = "<group>";
+		};
+		F26FF8572EE8303100E64C4E /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF8582EE8308400E64C4E /* BounceButtonView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		F26FF85A2EE8313500E64C4E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF85B2EE8314200E64C4E /* PaywallService.swift */,
+				F26FF87A2EE8782D00E64C4E /* UDManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F26FF85D2EE832B500E64C4E /* OnbRouter */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF8612EE8332C00E64C4E /* Path */,
+				F26FF8642EE8335500E64C4E /* OnbRouter.swift */,
+				F26FF8662EE833BD00E64C4E /* OnbRouterModifier.swift */,
+			);
+			path = OnbRouter;
+			sourceTree = "<group>";
+		};
+		F26FF85E2EE832C000E64C4E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF85F2EE832C700E64C4E /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F26FF8612EE8332C00E64C4E /* Path */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF8622EE8333300E64C4E /* OnbPath.swift */,
+			);
+			path = Path;
+			sourceTree = "<group>";
+		};
+		F26FF8682EE834E300E64C4E /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF8692EE834F400E64C4E /* PaywallService+OnbFirst.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		F26FF86B2EE8361400E64C4E /* View+RouterModifier */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF86C2EE8363300E64C4E /* View+RouterModifier.swift */,
+			);
+			path = "View+RouterModifier";
+			sourceTree = "<group>";
+		};
+		F26FF86E2EE86F3700E64C4E /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF86F2EE86F4700E64C4E /* PaywallService+OnbSecond.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		F26FF8712EE870EF00E64C4E /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF8722EE8710100E64C4E /* PaywallService+OnbThird.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		F26FF87C2EE87C2A00E64C4E /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF87D2EE87C3D00E64C4E /* PaywallService+Paywall.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26FF81F2EE82D2C00E64C4E /* MusicPlayerProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26FF82B2EE82D2E00E64C4E /* Build configuration list for PBXNativeTarget "MusicPlayerProject" */;
+			buildPhases = (
+				F26FF81C2EE82D2C00E64C4E /* Sources */,
+				F26FF81D2EE82D2C00E64C4E /* Frameworks */,
+				F26FF81E2EE82D2C00E64C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlayerProject;
+			packageProductDependencies = (
+			);
+			productName = MusicPlayerProject;
+			productReference = F26FF8202EE82D2C00E64C4E /* MusicPlayerProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26FF8182EE82D2C00E64C4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					F26FF81F2EE82D2C00E64C4E = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = F26FF81B2EE82D2C00E64C4E /* Build configuration list for PBXProject "MusicPlayerProject" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F26FF8172EE82D2C00E64C4E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F26FF8212EE82D2C00E64C4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26FF81F2EE82D2C00E64C4E /* MusicPlayerProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26FF81E2EE82D2C00E64C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26FF8322EE82D3700E64C4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26FF81C2EE82D2C00E64C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26FF8752EE8713D00E64C4E /* PaywallVC.swift in Sources */,
+				F26FF8342EE82D3700E64C4E /* MusicPlayerProjectApp.swift in Sources */,
+				F26FF8592EE8308400E64C4E /* BounceButtonView.swift in Sources */,
+				F26FF84A2EE82F7300E64C4E /* OnbSecondVC.swift in Sources */,
+				F26FF8562EE82FB000E64C4E /* OnbThirdAssembler.swift in Sources */,
+				F26FF8632EE8333300E64C4E /* OnbPath.swift in Sources */,
+				F26FF84C2EE82F7800E64C4E /* OnbSecondVM.swift in Sources */,
+				F26FF8482EE82F6E00E64C4E /* OnbFirstVM.swift in Sources */,
+				F26FF85C2EE8314200E64C4E /* PaywallService.swift in Sources */,
+				F26FF8602EE832C700E64C4E /* Router.swift in Sources */,
+				F26FF8542EE82FAB00E64C4E /* OnbThirdVM.swift in Sources */,
+				F26FF8732EE8710100E64C4E /* PaywallService+OnbThird.swift in Sources */,
+				F26FF8522EE82FA700E64C4E /* OnbThirdVC.swift in Sources */,
+				F26FF8802EE87CC900E64C4E /* MainVC.swift in Sources */,
+				F26FF83A2EE82D9F00E64C4E /* AppStorage+Keys.swift in Sources */,
+				F26FF86A2EE834F400E64C4E /* PaywallService+OnbFirst.swift in Sources */,
+				F26FF8792EE8714B00E64C4E /* PaywallAssembler.swift in Sources */,
+				F26FF8652EE8335500E64C4E /* OnbRouter.swift in Sources */,
+				F26FF83D2EE82DED00E64C4E /* AppStorageKeys.swift in Sources */,
+				F26FF8702EE86F4700E64C4E /* PaywallService+OnbSecond.swift in Sources */,
+				F26FF8502EE82F9B00E64C4E /* OnbSecondAssembler.swift in Sources */,
+				F26FF87E2EE87C3D00E64C4E /* PaywallService+Paywall.swift in Sources */,
+				F26FF8462EE82F6900E64C4E /* OnbFirstVC.swift in Sources */,
+				F26FF84E2EE82F9400E64C4E /* OnbFirstAssembler.swift in Sources */,
+				F26FF87B2EE8782D00E64C4E /* UDManager.swift in Sources */,
+				F26FF86D2EE8363300E64C4E /* View+RouterModifier.swift in Sources */,
+				F26FF8672EE833BD00E64C4E /* OnbRouterModifier.swift in Sources */,
+				F26FF8772EE8714400E64C4E /* PaywallVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F26FF8292EE82D2E00E64C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HS3N4SX6NK;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F26FF82A2EE82D2E00E64C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HS3N4SX6NK;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26FF82C2EE82D2E00E64C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS3N4SX6NK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = egorpetkevich.MusicPlayerProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F26FF82D2EE82D2E00E64C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS3N4SX6NK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = egorpetkevich.MusicPlayerProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26FF81B2EE82D2C00E64C4E /* Build configuration list for PBXProject "MusicPlayerProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26FF8292EE82D2E00E64C4E /* Debug */,
+				F26FF82A2EE82D2E00E64C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26FF82B2EE82D2E00E64C4E /* Build configuration list for PBXNativeTarget "MusicPlayerProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26FF82C2EE82D2E00E64C4E /* Debug */,
+				F26FF82D2EE82D2E00E64C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F26FF8182EE82D2C00E64C4E /* Project object */;
+}
